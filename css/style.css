@@ -1,0 +1,126 @@
+.top{
+    background-color: #316dc3;
+}
+
+.topText{
+    color: white;
+    font-size: 13px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.myIcons{
+    color: white;
+    cursor: pointer;
+}
+
+.activeItem{
+    color: white !important;
+    background-color: #316dc3;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.hoverItem:hover{
+    color: white !important;
+    background-color: #316dc3;
+    border-radius: 20px;
+}
+
+.myMarque{
+    background-color: #316dc3;
+    color: white;
+    height: 30px;
+}
+
+.acheivement{
+    background-color: #316dc3;
+}
+
+.acheivementIcon{
+    width: 50px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h5,h3,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.bg-blue{
+    background-color: #316dc3;
+}
+
+.bg-grey{
+    background-color: #25272e;
+}
+
+.text-blue{
+    color: #316dc3;
+}
+
+.text-green-dark{
+    color: #427900;
+}
+
+.text-green-light{
+    color: #06e326;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-grey{
+    color: #bbbbbb;
+    line-height: 30px;
+}
+
+.box{
+    background-color: white;
+    height: auto;
+    box-shadow: 2px 2px 10px 5px lightgray;
+    width: 90%;
+}
+
+.myGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galleryImg
+{
+    width: 19.8%;
+}
+
+@media only screen and (max-width:576px){
+    .galleryImg
+    {
+        width: 49.8%;
+    }   
+}
+
+.footerIcon{
+    width: 35px;
+}
